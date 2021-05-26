@@ -8,7 +8,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 const Contact = () => {
 	return (
 		<div>
-			<Navbar page='' />
+			<Navbar page='contact' />
 			<div className='contactBx'>
 				<div className='color'>
 					<div>

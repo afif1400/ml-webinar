@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 
 const WorkshopDetails = () => {
 	return (
-		<div style={{ background: 'var(--primary)' }}>
+		<div style={{ background: 'var(--primary)', height: '100%' }}>
 			<Navbar page='outline' />
 			<div className='workshopDiv'>
 				<div className='outline'>

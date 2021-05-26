@@ -1,7 +1,7 @@
 .contactBx {
 	display: grid;
-	margin-top: calc(-55px);
-	height: 100vh;
+	/* margin-top: calc(-55px); */
+	height: calc(100vh - 55px);
 	grid-template-columns: 1fr 8fr;
 }
 
@@ -12,6 +12,7 @@
 }
 .contactBx .color {
 	width: 100%;
+	height: calc(100vh-55px);
 	background-color: var(--primary);
 	display: flex;
 	justify-content: space-evenly;
@@ -32,8 +33,8 @@
 .contactBx .infoBx {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	padding: 100px 40px;
+	justify-content: space-evenly;
+	padding: 1px 40px;
 }
 
 .contactBx .infoBx h2 {
