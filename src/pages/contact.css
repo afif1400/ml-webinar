@@ -1,0 +1,106 @@
+.contactBx {
+	display: grid;
+	margin-top: calc(-55px);
+	height: calc(100vh);
+	grid-template-columns: 1fr 8fr;
+}
+
+.contactBx .color {
+	width: 100%;
+	background-color: var(--primary);
+	display: flex;
+	justify-content: space-evenly;
+	/* flex-wrap: wrap; */
+	/* position: absolute; */
+}
+
+.contactBx .color div {
+	position: absolute;
+	/* left: 5px; */
+	text-align: center;
+	bottom: 0;
+}
+.social-icon {
+	color: var(--carolina-blue);
+	margin: 10px;
+	cursor: pointer;
+}
+
+.contactBx .infoBx {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 100px 40px;
+}
+
+.contactBx .infoBx h2 {
+	text-align: right;
+	font-size: 8vw;
+	font-weight: 500;
+	color: var(--primary);
+	transition: 0.6s;
+	line-height: 80%;
+}
+
+.contactBx .infoBx > div {
+	display: flex;
+	/* flex-direction: row; */
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.contactBx .infoBx > div {
+	color: var(--primary);
+	min-width: 320px;
+}
+
+.contactBx .infoBx > div > div .name {
+	margin-top: 50px;
+	font-size: 3rem;
+	line-height: 80%;
+}
+
+.contactBx .infoBx > div > div .number {
+	font-size: 2rem;
+	font-weight: 200;
+	margin-bottom: 20px;
+	color: var(--secondary);
+}
+
+.contactBx .infoBx > div > div .email {
+	font-size: 1.6rem;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+	.infoBx h2 {
+		font-size: 14vw !important;
+		padding-top: 80px;
+		transition: 0.6s;
+	}
+	.infoBx > div {
+		padding-bottom: 100px;
+	}
+	.contactBx .infoBx > div > div .name {
+		font-size: 1.6rem;
+	}
+
+	.contactBx .infoBx > div > div .number {
+		font-size: 1rem;
+		margin-bottom: 20px;
+		font-weight: 200;
+	}
+
+	.contactBx .infoBx > div > div .email {
+		font-size: 1rem;
+		font-weight: 400;
+	}
+	.contactBx .color div {
+		bottom: 0;
+		right: 0;
+	}
+	.social-icon {
+		color: var(--primary);
+	}
+}

@@ -1,0 +1,29 @@
+{
+  "name": "inovact-webinar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "inovact-webinar",
+  "author": "afif ahmed",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "gatsby": "^3.4.1",
+    "gatsby-plugin-fontawesome-css": "^1.1.0",
+    "gatsby-plugin-transition-link": "^1.20.5",
+    "gsap": "^3.6.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
