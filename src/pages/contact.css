@@ -1,21 +1,24 @@
 .contactBx {
 	display: grid;
 	margin-top: calc(-55px);
-	height: calc(100vh);
+	height: 100vh;
 	grid-template-columns: 1fr 8fr;
 }
 
+@media (max-width: 400px) {
+	.contactBx {
+		height: 90vh;
+	}
+}
 .contactBx .color {
 	width: 100%;
 	background-color: var(--primary);
 	display: flex;
 	justify-content: space-evenly;
-	/* flex-wrap: wrap; */
-	/* position: absolute; */
 }
 
 .contactBx .color div {
-	position: absolute;
+	position: fixed;
 	/* left: 5px; */
 	text-align: center;
 	bottom: 0;
